@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>José Bernabé García Trejo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         BARRA DE NAVEGACIÓN
+    ========================== -->
+
+    <header>
+
+        <nav>
+
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#formacion">Formación</a>
+            <a href="#pasatiempos">Pasatiempos</a>
+            <a href="#criptografia">Criptografía</a>
+            <a href="#contacto">Contacto</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         INICIO
+    ========================== -->
+
+    <section id="inicio">
+
+        <div>
+
+            <p>Bienvenido</p>
+
+            <h1>José Bernabé García Trejo</h1>
+
+            <p>
+                Grupo 7CV3
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SOBRE MÍ
+    ========================== -->
+
+    <section id="sobre-mi">
+
+        <h2>Sobre mí</h2>
+
+        <div>
+
+            <div>
+                    <img src="imagenes/selfie.jpeg" alt="Foto de José Bernabé">
+            </div>
+
+            <div>
+
+                <h3>¿Quién soy?</h3>
+
+                <p>
+                    Soy Bernabé, me gusta que me digan Berna, este es mi penúltimo
+                    semestre de la carrera, tengo 21 años, dedico mi tiempo a hacer
+                    gym, estoy escuchando música la mayoría del tiempo, intento llevar una
+                    vida saludable pero divertida al mismo tiempo, nunca me quedo con el
+                    "¿Qué hubiera pasado?".
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FORMACIÓN ACADÉMICA
+    ========================== -->
+
+    <section id="formacion">
+
+        <h2>Formación académica</h2>
+
+        <div>
+
+            <article>
+
+                <h3>Secundaria</h3>
+
+                <h4>Colegio Victoria Tepeyac</h4>
+
+                <p>
+                    Cursé mis 3 años de secundaria en esta escuela, ubicada en
+                    Lindavista. 2016-2019
+                </p>
+
+            </article>
+
+
+            <article>
+
+                <h3>Bachillerato</h3>
+
+                <h4>CECyT 11 "Wilfrido Massieu", IPN</h4>
+
+                <p>
+                    Estudié y salí como técnico en construcción, en Santo Tomás.
+                    2019-2022
+                </p>
+
+            </article>
+
+
+            <article>
+
+                <h3>Universidad</h3>
+
+                <h4>Escuela Superior de Cómputo ESCOM, IPN</h4>
+
+                <p>
+                    Carrera de Ingeniería en Sistemas Computacionales, actualmente
+                    cursando el 9no semestre, 2022-2026
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PASATIEMPOS
+    ========================== -->
+
+    <section id="pasatiempos">
+
+        <h2>Mis pasatiempos</h2>
+
+        <div class="pasatiempos-tarjetas">
+
+            <article>
+
+                <h3>Gym</h3>
+
+                <p>
+                    Intento llevar una vida saludable haciendo ejercicio y comiendo bien.
+                </p>
+
+            </article>
+
+
+            <article>
+
+                <h3>Soccer</h3>
+
+                <p>
+                    Desde pequeño he jugado soccer, me apasiona el deporte y lo que
+                    conlleva.
+                </p>
+
+            </article>
+
+
+            <article>
+
+                <h3>Viajar</h3>
+
+                <p>
+                    Me gusta salir de mi zona de confort aunque sea complicado,
+                    lo disfruto, es crecer personalmente.
+                </p>
+
+            </article>
+
+        </div>
+
+
+        <!-- =========================
+             CARRUSEL DE FOTOS Y VIDEOS
+        ========================== -->
+
+        <div class="carrusel">
+
+            <div class="carrusel-contenedor">
+
+
+                <!-- =========================
+                     SLIDE 1 - FOTO GYM
+                ========================== -->
+
+                <div class="slide activo">
+
+                    <img
+                        src="imagenes/gym1.jpeg"
+                        alt="José entrenando en el gimnasio">
+
+                </div>
+
+
+                <!-- =========================
+                     SLIDE 2 - FOTO SOCCER
+                ========================== -->
+
+                <div class="slide">
+
+                    <img
+                        src="imagenes/soccer1.jpeg"
+                        alt="José jugando soccer">
+
+                </div>
+
+
+                <!-- =========================
+                     SLIDE 3 - FOTO VIAJE
+                ========================== -->
+
+                <div class="slide">
+
+                    <img
+                        src="imagenes/viaje1.jpeg"
+                        alt="José durante un viaje">
+
+                </div>
+
+
+                <!-- =========================
+                     SLIDE 4 - VIDEO VIAJE
+                ========================== -->
+
+                <div class="slide">
+
+                    <video
+                        autoplay
+                        muted
+                        loop
+                        playsinline>
+
+                        <source
+                            src="imagenes/viajeaeropuerto.mp4"
+                            type="video/mp4">
+
+                        Tu navegador no puede reproducir este video.
+
+                    </video>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 BOTÓN ANTERIOR
+            ========================== -->
+
+            <button
+                class="carrusel-btn anterior"
+                type="button">
+
+                &#10094;
+
+            </button>
+
+
+            <!-- =========================
+                 BOTÓN SIGUIENTE
+            ========================== -->
+
+            <button
+                class="carrusel-btn siguiente"
+                type="button">
+
+                &#10095;
+
+            </button>
+
+
+            <!-- =========================
+                 INDICADORES
+            ========================== -->
+
+            <div class="indicadores">
+
+                <span class="indicador activo"></span>
+
+                <span class="indicador"></span>
+
+                <span class="indicador"></span>
+
+                <span class="indicador"></span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CRIPTOGRAFÍA
+    ========================== -->
+
+    <section id="criptografia">
+
+        <h2>Criptografía</h2>
+
+        <p>
+            Tres datos curiosos sobre criptografía
+            que considero interesantes.
+        </p>
+
+
+        <div>
+
+            <article>
+
+                <h3>1. Telegrama Zimmermann (1917)</h3>
+
+                <p>
+                    Alemania propuso a México aliarse contra EE. UU. a cambio de
+                    apoyar la recuperación de Texas, Nuevo México y Arizona.
+                    Los británicos interceptaron y descifraron el mensaje,
+                    ayudando a provocar la entrada de EE. UU. en la Primera
+                    Guerra Mundial.
+                </p>
+
+            </article>
+
+
+            <article>
+
+                <h3>2. Cifrado César</h3>
+
+                <p>
+                    Julio César utilizaba un sistema que desplazaba las letras
+                    del alfabeto para ocultar mensajes. Es uno de los cifrados
+                    de sustitución más antiguos y conocidos.
+                </p>
+
+            </article>
+
+
+            <article>
+
+                <h3>3. Enigma Alemania 2da Guerra Mundial</h3>
+
+                <p>
+                    El Enigma fue una máquina de cifrado utilizada por Alemania
+                    durante la Segunda Guerra Mundial. Su descifrado fue un logro
+                    crucial para su caída.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACTO
+    ========================== -->
+
+<section id="contacto">
+
+    <h2>Contacto</h2>
+
+    <p>
+        Correo electrónico:
+        josebernabegarciatrejo@gmail.com
+    </p>
+
+    <p>
+        Instagram:
+        <a href="https://www.instagram.com/bernabe_jgt/" target="_blank">
+            @bernabe_jgt
+        </a>
+    </p>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/JOSEBERNABEGARCIATREJO" target="_blank">
+            @BernabeGarcia11
+        </a>
+    </p>
+
+    <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/jose-bernabe-garcia-trejo-22776533b" target="_blank">
+            Mi perfil de LinkedIn
+        </a>
+    </p>
+
+</section>
+
+    <!-- =========================
+         DESCARGAS
+    ========================== -->
+
+    <section id="descargas">
+
+        <h2>Documentos</h2>
+
+        <a href="documentos/CV.pdf" download>
+            Descargar CV
+        </a>
+
+        <a href="documentos/public_key.txt" download>
+            Descargar llave pública
+        </a>
+
+    </section>
+
+
+    <!-- =========================
+         PIE DE PÁGINA
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 José Bernabé García Trejo
+        </p>
+
+    </footer>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
